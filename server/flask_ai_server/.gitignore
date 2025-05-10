@@ -1,0 +1,25 @@
+# Ignore model files
+*.h5
+*.pth
+*.pkl
+*.ckpt
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore large datasets
+data/
+datasets/
+
+models/
+optimizer/
+
+.env
+
+# Ignore logs
+logs/
+
+# Ignore temporary files (e.g., system files created during development)
+*.log
+*.tmp
