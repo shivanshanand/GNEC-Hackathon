@@ -5,8 +5,11 @@ dist/
 *.log
 .vscode/
 client/build/
-server/flask_ai_server/models/
 *.pt
 *.bin
 *.ckpt
 *.h5
+
+#these two files were exceeding the github limit so i wasnt able to upload these
+server/flask_ai_server/models/models/fine_tuned_model/checkpoint-3/model.safetensors
+server/flask_ai_server/models/models/fine_tuned_model/checkpoint-3/optimizer.pt
