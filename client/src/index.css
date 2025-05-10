@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@media (max-width: 768px) {
+  .sidebar-open .main-content {
+    margin-left: 0;
+  }
+  .sidebar-closed .main-content {
+    margin-left: 0;
+  }
+}
