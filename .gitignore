@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+.vscode/
+client/build/
+server/flask_ai_server/models/
+*.pt
+*.bin
+*.ckpt
+*.h5
